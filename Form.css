@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    /* width: 100%; */
+    /* height: 100%; */
+     justify-items: center; 
+     align-items: center;
+}
+
+.form{
+    width: 30vw;
+    /* height: 70vh; */
+    
+    border: 5px;
+    border-radius: 16px;
+    background: rgb(0, 0, 0, 0.1);
+    border: solid 5px rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    box-shadow: 0px 0px 30px 20px rgb(0, 0, 0, 0.1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-image: url();
+    background-size: cover;
+}
+
+.name h1{
+    font-size: 50px;
+    
+    padding-top: 10%;
+    color: white;
+}
+.name{
+    justify-items: center;
+    align-items: center;
+    color: white;
+    
+    
+}
+ .name input{
+    width: 100%;
+    padding: 2%;
+    border-radius: 20px;
+    border-color: aliceblue; 
+    
+}
+
+
+.remember{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 10px; */
+    color: white;
+}
+.remember p{
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white; 
+}
+
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.login{
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 8%;
+    padding-left: 10px; 
+       
+}
+
+button{
+    width: 270px;
+    height: 38px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: aqua;
+    border: aqua;
+    color: white;
+    margin-bottom: 8%;  
+}
+button a{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
